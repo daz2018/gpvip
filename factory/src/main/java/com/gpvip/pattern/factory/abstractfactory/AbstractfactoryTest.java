@@ -5,5 +5,8 @@ public class AbstractfactoryTest {
         PhoneFactory factory=new IphoneFactory();
         factory.CreatePhone().sendMessage();
         factory.CreateEarphone().listenMusic();
+        factory=new SamsungPhoneFactory();
+        factory.CreatePhone().sendMessage();
+        factory.CreateEarphone().listenMusic();
     }
 }
