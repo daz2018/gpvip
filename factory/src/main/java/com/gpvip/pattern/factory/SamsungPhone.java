@@ -3,6 +3,6 @@ package com.gpvip.pattern.factory;
 public class SamsungPhone implements Phone{
 
     public void sendMessage() {
-        System.out.println("This message is sent by samsumg.");
+        System.out.println("来自三星的消息.");
     }
 }
